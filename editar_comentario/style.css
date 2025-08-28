@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.comentarios {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.comentario {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 300px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.comentario p {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+form {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form input,
+form textarea,
+form button {
+  width: 100%;
+  padding: 10px 0 10px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+}
+
+form button:hover {
+  background-color: #218838;
+}
+
+.btn,
+.btn-editar {
+  display: inline-block;
+  background-color: #28a745;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.btn-editar {
+  background-color: #ff4d4d;
+}
+
+.btn:hover,
+.btn-editar:hover {
+  background-color: #218838;
+}
